@@ -1,0 +1,280 @@
+/***********************/
+/* 1300 ~ 1024 (작은PC)*/
+@media screen and (max-width:1300px) {
+    .inner_wrap{
+        width:100%;
+        box-sizing: border-box;
+        padding:0 40px;
+    }
+    section{
+        padding:130px 0;
+    }
+}
+
+
+/*******************************/
+/* 1023 ~ 768 (태블릿) */
+@media screen and (max-width:1023px) {
+    .pc{
+        display: none;
+    }
+    .tablet{
+        display: block;
+    }
+    .right_fixed_nav{
+        right:1vw;
+    }
+    section{
+        padding:110px 0;
+    }
+    .inner_wrap{
+        width:100%;
+        box-sizing: border-box;
+        padding:0 40px;
+    }
+    /*******************/
+    /* SKILL */
+    #skill > .inner_wrap{
+        flex-direction: column;
+    }
+    #skill .left, #skill .right{
+        width:100%;
+    }
+    #skill .cloud{
+        bottom:-15px;
+    }
+    #skill .right li{
+        justify-content: space-evenly;
+        margin-bottom:10px;
+    }
+    .skill_data{
+        width:80%;
+        box-sizing: border-box;
+        padding-left:10px;
+    }
+    #skill h1{
+        margin-bottom:30px;
+    }
+    .skill_logo{
+        margin:auto;
+        width:100px;
+        height:100px;
+    }
+    .percent{
+        width:100%;
+        height:30px;
+        margin:10px 0;
+    }
+    .percent_inner{
+        line-height: 30px;
+        padding-left:15px;
+        font-size: 18px;
+    }
+    /*// SKILL */
+    /*******************/
+    /* PORTFOLIO */
+    #portfolio{
+        text-align: left;
+        padding-bottom:0px;
+    }
+    #portfolio h1{
+        margin-bottom:30px;
+    }
+    .pofol{
+        flex-direction: column;
+        width:100%;
+        margin-bottom:200px;
+    }
+    .pofol .left, .pofol .right{
+        width:100%;
+    }
+    .pofol .right{
+        justify-content: left;
+    }
+    .pofol ul{
+        margin:auto;
+    }
+    .pofol ul li{
+        display: flex;
+    }
+    #portfolio li{ margin-bottom:15px;}
+    #portfolio li:first-of-type{ margin-bottom:15px;}
+    #portfolio li:nth-of-type(2) p{ font-size: 15px;}
+    .pofol h5{
+        width: 20%;
+        margin-right: 0px;
+    }
+    #portfolio p {
+        width:80%;
+        opacity: 0.9;
+    }
+    .pofol_btn{
+        margin-top:30px;
+        width:50%;
+        border-radius: 0px;
+        padding:15px 20px;
+        margin-right:0px;
+        text-align: center;
+        box-sizing: border-box;
+        border:1px solid rgba(26, 26, 30, 0.4);
+    }
+    .portfolio_box{
+        height:430px;
+        margin:20px 0;
+    }
+    /*작업 내용 보기*/
+    .planning_popup h5{
+        width:100%;
+    }
+    /*// PORTFOLIO */
+    /*******************/
+    /* 연락처 */
+    #contact{
+        padding:150px 0;
+    }
+    #contact .cloud{
+        bottom:10px;
+    }
+    #contact > .inner_wrap{
+        flex-direction: column;
+    }
+    #contact .left, #contact .right{
+        width:100%;
+    }
+    #contact .left{
+        justify-content: center;
+        margin-bottom:50px;
+    }
+    #contact .right{
+        justify-content: center;
+    }
+    #contact table{
+        text-align: left;
+    }
+    #contact th, #contact td{
+        padding:15px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    /*// 연락처 */
+}
+
+
+
+
+
+/***********************/
+/* 375 ~ 768  (모바일) */
+@media screen and (min-width:375px) and (max-width:767px) {
+    .inner_wrap{
+        padding:0 20px;
+    }
+    /*************/
+    /* 글씨 크기 */
+    h1{
+        font-size: 52px;
+    }
+    h2{
+        font-size: 38px;
+    }
+    h3{
+        font-size: 34px;
+    }
+    h4{
+        font-size: 22px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    p{
+        font-size: 12px;
+    }
+    /***********/
+    /*섹션 공통*/
+    section{
+        padding:80px 0;
+    }
+    /************/
+    /*종이비행기*/
+    .paper_plane{
+        left:-13px;
+        width:26px;
+    }
+    /************/
+    /*처음 화면*/
+    .hello_1{ margin-left:-50px;}
+    .hello_2{ margin-left:-105px;}
+    .hello_4{ margin-left:-50px;}
+    /*//처음 화면*/
+    /*******************/
+    /* ABOUT ME */
+    .name{
+        font-size: 20px;
+        margin-top:10px;
+        margin-bottom:0px;
+        color:#1a1a1e;
+        font-style: italic;
+    }
+    #about_me .cloud{
+        bottom:50px;
+    }
+    #about_me > .inner_wrap{
+        flex-direction: column;
+    }
+    #about_me .left, #about_me .right{
+        width:100%;
+    }
+    .about_left{
+        width:100%;
+    }
+    #about_me .circle{
+        width:330px;
+        height:330px;
+        margin:auto;
+    }
+    #about_me .right{
+        justify-content: center;
+    }
+    .about_title{
+        margin-bottom:0px;
+        text-align: center;
+    }
+    .about_text{
+        margin-bottom:5px;
+        text-align: center;
+    }
+    /*******************/
+    /* SKILL */
+    #skill .cloud{
+        bottom:-15px;
+    }
+    #skill .right li{
+        margin-bottom:30px;
+    }
+    #skill h1{
+        margin-bottom:50px;
+    }
+    /*// SKILL */
+    /*******************/
+    /*PORTFOLIO*/
+    .portfolio_box{
+        height:300px;
+        margin:20px 0;
+    }
+    .pofol{
+        margin-bottom:100px;
+    }
+    .pofol h5{
+        width: 30%;
+        margin-right: 0px;
+    }
+    #portfolio p {
+        width:70%;
+        opacity: 0.9;
+    }
+    /*작업 내용 보기*/
+    .planning_popup h5{
+        width:100%;
+    }
+    /*//PORTFOLIO*/
+}
